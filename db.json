@@ -1,26 +1,32 @@
 {
   "tasks": [
     {
-      "text": "shakil home",
+      "text": "do homework",
+      "day": "March 20",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "add function",
       "day": "Jan 22",
       "reminder": true,
       "id": 2
     },
     {
-      "text": "toem hom",
-      "day": "Feb 23",
+      "text": "go to meeting",
+      "day": "April 12",
       "reminder": false,
       "id": 3
     },
     {
-      "text": "uasd",
+      "text": "drink coffee",
       "day": "at 10am",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
-      "text": "asdf",
-      "day": "adsfasdf",
+      "text": "getup early",
+      "day": "everyday at 6am",
       "reminder": true,
       "id": 5
     }

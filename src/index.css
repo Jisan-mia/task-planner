@@ -8,16 +8,28 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
+	background-color: #dae0f0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .container {
-	max-width: 500px;
-	margin: 30px auto;
+	max-width: 400px;
+	margin: 20px auto;
 	overflow: hidden;
 	min-height: 300px;
-	border: 1px solid steelblue;
-	padding: 30px;
+	height: 640px;
+	padding: 15px;
 	border-radius: 5px;
+	background-color: #f3f7fa;
+	border-radius: 15px;
+	box-shadow: 0 4px 59px 16px #00000021;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .header {
@@ -29,7 +41,7 @@ body {
 
 .btn {
 	display: inline-block;
-	background: #000;
+	background: #5255c0;
 	color: #fff;
 	border: none;
 	padding: 10px 20px;
@@ -53,8 +65,23 @@ body {
 	margin: 20px 0;
 }
 
+.tasksContainer {
+	max-height: 260px;
+	overflow-x: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tasksContainer::-webkit-scrollbar-thumb {
+	background-color: steelblue;
+	border-radius: 3px;
+}
+
+.tasksContainer::-webkit-scrollbar {
+	width: 3px;
+}
+
 .task {
-	background: #f4f4f4;
+	background: #fff;
 	margin: 5px;
 	padding: 10px 20px;
 	cursor: pointer;
@@ -76,19 +103,26 @@ body {
 }
 
 .form-control {
-	margin: 20px 0;
+	margin-bottom: 15px;
 }
 
 .form-control label {
 	display: block;
+	margin-bottom: 3px;
 }
 
 .form-control input {
 	width: 100%;
 	height: 40px;
-	margin: 5px;
 	padding: 3px 7px;
 	font-size: 17px;
+	border: none;
+	outline: none;
+	box-shadow: 0 5px 31px 1px rgb(0 0 0 / 5%);
+	border-radius: 3px;
+}
+.form-control input::placeholder {
+	color: rgba(0, 0, 0, 0.4);
 }
 
 .form-control-check {
@@ -107,6 +141,15 @@ body {
 }
 
 footer {
-	margin-top: 30px;
+	padding-top: 10px;
 	text-align: center;
+	border-top: 0.85px solid rgb(224, 221, 221);
+	display: flex;
+	justify-content: space-evenly;
+}
+footer a {
+	background-color: white;
+	color: #16178b;
+	padding: 8px 15px;
+	border-radius: 50px;
 }

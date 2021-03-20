@@ -2,7 +2,7 @@ import React from "react";
 import Task from "./Task";
 const Tasks = ({ tasks, onDelete, onReminderToggle }) => {
 	return (
-		<>
+		<section className="tasksContainer">
 			{tasks.map((task) => (
 				<Task
 					key={task.id}
@@ -11,7 +11,7 @@ const Tasks = ({ tasks, onDelete, onReminderToggle }) => {
 					task={task}
 				/>
 			))}
-		</>
+		</section>
 	);
 };
 

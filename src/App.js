@@ -85,7 +85,7 @@ function App() {
 
 	return (
 		<Router>
-			<div className="container">
+			<div className="container ">
 				<Header onAdd={onAdd} showAddTask={showAddTask} title="Task Tracker" />
 
 				<Route
