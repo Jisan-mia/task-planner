@@ -152,4 +152,5 @@ footer a {
 	color: #16178b;
 	padding: 8px 15px;
 	border-radius: 50px;
+	box-shadow: 0 4px 10px rgb(0 0 0 / 19%);
 }

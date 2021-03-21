@@ -4,6 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<Link to="/">Home</Link>
+			<Link to="/">Profile</Link>
 			<Link to="/about">About</Link>
 		</footer>
 	);

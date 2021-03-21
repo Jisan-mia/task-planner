@@ -1,32 +1,8 @@
 {
   "tasks": [
     {
-      "text": "do homework",
-      "day": "March 20",
-      "reminder": true,
-      "id": 1
-    },
-    {
-      "text": "add function",
-      "day": "Jan 22",
-      "reminder": true,
-      "id": 2
-    },
-    {
-      "text": "go to meeting",
-      "day": "April 12",
-      "reminder": false,
-      "id": 3
-    },
-    {
-      "text": "drink coffee",
-      "day": "at 10am",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "text": "getup early",
-      "day": "everyday at 6am",
+      "text": "fhgjdfg",
+      "day": "dfgh",
       "reminder": true,
       "id": 5
     }
